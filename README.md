@@ -12,4 +12,4 @@ AgroIntel_Feature_Extraction_Analysis.ipynb
 Processes tracked cow movement data to extract behavioral features such as speed, total distance traveled, number of stops, time spent in eating/sleeping zones, and zone transitions for each cow.
 
 AgroIntel_Sickness_Estrus_Prediction_Model.ipynb  
-Trains and evaluates a machine learning model to predict whether a cow is healthy, sick, or in estrus (heat) based on the extracted behavioral features.
+Trains and evaluates a machine learning model to predict whether a cow is healthy, sick, or in estrus (heat) with synthetic data, based on extracted behavioral features.
