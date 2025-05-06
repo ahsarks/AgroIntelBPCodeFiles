@@ -13,3 +13,9 @@ Processes tracked cow movement data to extract behavioral features such as speed
 
 AgroIntel_Prediction_Model.ipynb  
 Trains and evaluates a machine learning model to predict whether a cow is healthy, sick, or in estrus (heat) with synthetic data, based on extracted behavioral features.
+
+Train_reID.py
+Trains the reID model on 10 folders of images of different cattle and saves the best weights for inference.  
+
+Tracking_reID.py
+This code runs the reID-model we trained in "Train_reID.py" in combination with the "Detection_Tracking.py" script. Its essentially identical to "Detection_Tracking.py", only including the reID-model.
