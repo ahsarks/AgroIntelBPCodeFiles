@@ -15,7 +15,7 @@ Performs real-time detection and tracking of cows using the trained YOLOv8 model
 AgroIntel_Feature_Extraction_Analysis.ipynb  
 Processes tracked cow movement data to extract behavioral features such as speed, total distance traveled, number of stops, time spent in eating/sleeping zones, and zone transitions for each cow. Compiles and uploads activity snapshots with 33 activity features for each cow to our firebase database every hour. 
 
-![Example Activity Snapshot:](images/Activitysnapshot (2).png)
+![Example Activity Snapshot:](images/Activitysnapshot(2).png)
 
 AgroIntel_Prediction_Model.ipynb  
 Trains and evaluates a machine learning model to predict whether a cow is healthy, sick, or in estrus (heat) with synthetic data, based on extracted behavioral features.
