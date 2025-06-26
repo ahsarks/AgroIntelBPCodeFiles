@@ -5,6 +5,7 @@ This repository contains the main components of the AgroIntel cattle monitoring 
 AgroIntel_YOLOV8TrainModel.ipynb  
 Trains a YOLOv8 object detection model to identify and localize cows in barn video frames using a labeled dataset. Includes data loading, training configuration, model evaluation, and saving the trained weights.
 
+![Detection output:](images/detectoutput.png)
 Detection_Tracking.py  
 Performs real-time detection and tracking of cows using the trained YOLOv8 model along with the ByteTrack algorithm. It logs cow positions, assigns consistent IDs, tracks time in different barn zones, and uploads data to Firebase.
 
