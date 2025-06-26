@@ -15,7 +15,7 @@ Performs real-time detection and tracking of cows using the trained YOLOv8 model
 AgroIntel_Feature_Extraction_Analysis.ipynb  
 Processes tracked cow movement data to extract behavioral features such as speed, total distance traveled, number of stops, time spent in eating/sleeping zones, and zone transitions for each cow. Compiles and uploads activity snapshots with 33 activity features for each cow to our firebase database every hour. 
 
-![Example Activity Snapshot:](images/Activitysnapshot.png)
+![Example Activity Snapshot:](images/activitysnap.png)
 
 AgroIntel_Prediction_Model.ipynb  
 Trains and evaluates a machine learning model to predict whether a cow is healthy, sick, or in estrus (heat) with synthetic data, based on extracted behavioral features.
@@ -25,3 +25,5 @@ Trains the reID model on a limited 10 cattle using images of different cattle an
 
 Tracking_reID.py
 This code runs the reID-model we trained in "Train_reID.py" in combination with the "Detection_Tracking.py" script. Its essentially identical to "Detection_Tracking.py", only including the reID-model. 
+![One of the cattle the model was trained to recognize:](images/gull.jpg)
+![The cow that was "recognized":](images/cow_10.jpg)
