@@ -34,3 +34,5 @@ One of the cattle the model was trained to recognize
 
 The cow that was "recognized"
 ![The cow that was "recognized":](images/cow_10.jpg)
+
+This was the best match our model got in the time we tested it. As we can see, it is not the same cow, but this will serve as a proof of concept. next step will be to train the model on every cattle and run it with all the cameras connected instead of just one. 
