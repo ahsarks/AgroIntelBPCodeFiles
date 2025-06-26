@@ -10,7 +10,7 @@ Trains a YOLOv8 object detection model to localize cows in barn video frames usi
 Detection_Tracking.py  
 Performs real-time detection and tracking of cows using the trained YOLOv8 model along with the ByteTrack algorithm. It logs cow positions, assigns consistent IDs, tracks time in different barn zones, and uploads data to Firebase.
 
-![Detection & Tracking output:](images/barn_layout.png.png)
+![Detection & Tracking output:](images/barn_layout.png)
 
 AgroIntel_Feature_Extraction_Analysis.ipynb  
 Processes tracked cow movement data to extract behavioral features such as speed, total distance traveled, number of stops, time spent in eating/sleeping zones, and zone transitions for each cow. Compiles and uploads activity snapshots with 33 activity features for each cow to our firebase database every hour. 
